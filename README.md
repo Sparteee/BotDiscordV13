@@ -17,7 +17,7 @@ Avec l'exécution de la commande `!essence`, cela affiche un menu sélectif qui 
 ## Translate 
 
 Le bot permet de traduire n'importe quel texte dans la langue choisie par l'utilisateur
-    Langues présentes :
+    Langues présentes :  
                         * Français `!fr <texteàtraduire>`  
                         * Allemand `!de <texteàtraduire>`  
                         * Anglais `!en <texteàtraduire>`  
