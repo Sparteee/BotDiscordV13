@@ -1,0 +1,10 @@
+{
+    "token" :"TOKEN_DISCORD",
+    "prefix" : "!",
+    "keyAPI" : "CLE_API_GOOGLE",
+    "TokenTwitter" : "TOKEN_TWITTER",
+    "TokenTwitch": "TOKEN_TWITCH",
+    "ClientIDTwitch": "CLIENT_ID_TWITCH"
+    
+
+}
