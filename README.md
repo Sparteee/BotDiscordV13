@@ -18,11 +18,11 @@ Avec l'exécution de la commande `!essence`, cela affiche un menu sélectif qui 
 
 Le bot permet de traduire n'importe quel texte dans la langue choisie par l'utilisateur
     Langues présentes :
-                        * Français `!fr <texteàtraduire>`
-                        * Allemand `!de <texteàtraduire>`
-                        * Anglais `!en <texteàtraduire>`
-                        * Espagnol `!es <texteàtraduire>`
-                        * Russe `!ru <texteàtraduire>`
+                        * Français `!fr <texteàtraduire>`  
+                        * Allemand `!de <texteàtraduire>`  
+                        * Anglais `!en <texteàtraduire>`  
+                        * Espagnol `!es <texteàtraduire>`  
+                        * Russe `!ru <texteàtraduire>`  
 Cette traduction est réalise par Goolge traduction qui est appelé via l'API de Google Translate
 
 ## Followers
