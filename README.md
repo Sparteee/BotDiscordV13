@@ -2,7 +2,7 @@
 
 # Description
 
-Ce projet est un bot discord sur la version 13 . 
+Ce projet est un bot discord sur la version 13 . Projet personnel pour expérimentation, découverte. Ce projet est toujours en cours de développement
 
 # Objectif 
 
