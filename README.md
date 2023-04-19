@@ -18,11 +18,11 @@ Avec l'exécution de la commande `!essence`, cela affiche un menu sélectif qui 
 
 Le bot permet de traduire n'importe quel texte dans la langue choisie par l'utilisateur
     Langues présentes :  
-                        * Français `!fr <texteàtraduire>`  
-                        * Allemand `!de <texteàtraduire>`  
-                        * Anglais `!en <texteàtraduire>`  
-                        * Espagnol `!es <texteàtraduire>`  
-                        * Russe `!ru <texteàtraduire>`  
+                        - Français `!fr <texteàtraduire>`  
+                        - Allemand `!de <texteàtraduire>`  
+                        - Anglais `!en <texteàtraduire>`  
+                        - Espagnol `!es <texteàtraduire>`  
+                        - Russe `!ru <texteàtraduire>`  
 Cette traduction est réalise par Goolge traduction qui est appelé via l'API de Google Translate
 
 ## Followers
@@ -34,7 +34,7 @@ Récupération du nombres des followers twitter du compte renseigné par l'utili
 `!help` - Donne toutes les commandes présentes sur le bot
 `!ping` - Donne la latence du bot
 
-Egalement, les messages présents dans les channels nommés "sql" ou "java" ou "php" se formatent automatiquement comme du code du nom du channel
+- Egalement, les messages présents dans les channels nommés "sql" ou "java" ou "php" se formatent automatiquement comme du code du nom du channel
 
 # Installation
 
