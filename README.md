@@ -1,10 +1,10 @@
 # Bot Discord V13
 
-# Description
+## Description
 
 Ce projet est un bot discord sur la version 13 . Projet personnel pour expérimentation, découverte. Ce projet est toujours en cours de développement
 
-# Objectif 
+## Objectif 
 
 L'objectif de ce bot est large . C'est un application avec plusieurs fonctionlités disponible grâce à Discord avec des appels sur API Axios ou tout simplement des commandes de gestion sur des channels textuels de serveur Discord
 
