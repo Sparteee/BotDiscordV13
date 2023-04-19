@@ -38,8 +38,8 @@ Egalement, les messages présents dans les channels nommés "sql" ou "java" ou "
 
 # Installation
 
-Exécutez dans un terminal ouvert dans le dossier : `npm install`
-Remplir le fichier config.json avec vos tokens
+- Exécutez dans un terminal ouvert dans le dossier : `npm install`
+- Remplir le fichier config.json avec vos tokens
 
 ```
     "token" :"TOKEN_DISCORD",
