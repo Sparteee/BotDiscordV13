@@ -39,3 +39,15 @@ Egalement, les messages présents dans les channels nommés "sql" ou "java" ou "
 # Installation
 
 Exécutez dans un terminal ouvert dans le dossier : `npm install`
+Remplir le fichier config.json avec vos tokens
+
+```
+    "token" :"TOKEN_DISCORD",
+    "prefix" : "!",
+    "keyAPI" : "CLE_API_GOOGLE",
+    "TokenTwitter" : "TOKEN_TWITTER",
+    "TokenTwitch": "TOKEN_TWITCH",
+    "ClientIDTwitch": "CLIENT_ID_TWITCH"
+```
+
+
