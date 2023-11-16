@@ -1,5 +1,4 @@
 const Discord = require('discord.js')
-const { description } = require('./help')
 
 module.exports = {
     name : 'infoserv',
