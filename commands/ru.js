@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const { MessageEmbed } = require("discord.js")
 const {Translate} = require('@google-cloud/translate').v2;
-const { keyAPI } = require('../config.json')
+const { keyAPI } = require('../config.local.json')
 
 module.exports = {
     name:'ru',

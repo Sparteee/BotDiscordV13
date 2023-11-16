@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const { description } = require('./help')
 const Axios = require("axios");
-const {TokenTwitter} = require('../config.json')
+const { TokenTwitter } = require('../config.local.json')
 
 module.exports = {
     name : 'followers',
