@@ -73,12 +73,12 @@ module.exports = {
                 if(channel) {
         
                     const test = new MessageEmbed()
-                    .setTitle(`EDT -- ${new Date(Date.now()).toLocaleDateString()}\n\n`)
+                    .setTitle(`EDT -- ${new Date(Date.now()).toLocaleDateString('fr-FR')}\n\n`)
                     .setColor('#ff8e01')
                     eventsToday.forEach(event => {
                         test.addField(
                             `${event.summary}\n`, 
-                            `De ${event.start.toLocaleTimeString()} à ${event.end.toLocaleTimeString()}\n\n`
+                            `De ${event.start.toLocaleTimeString('fr-FR')} à ${event.end.toLocaleTimeString('fr-FR')}\n\n`
                         )
                     });
                     test.setTimestamp()
