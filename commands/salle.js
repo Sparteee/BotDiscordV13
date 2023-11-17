@@ -112,7 +112,7 @@ module.exports = {
                 });
                 msg.setTimestamp()
                 message.channel.send({ embeds: [msg] });
-               //  sallesLibres = [];
+                sallesLibres = [];
 
             } catch (error) {
                 console.error('Une erreur est survenue:', error.message);
