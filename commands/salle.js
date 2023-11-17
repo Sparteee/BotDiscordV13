@@ -14,7 +14,7 @@ const salles =
     {salle: 'SC8', numero: 2810},
     {salle: 'Info Trans 2', numero: 2807}
 ]
-const sallesLibres = [];
+let sallesLibres = [];
 
 async function getICalData(salNumero) {
     const urlSalle = `https://apps.univ-lr.fr/cgi-bin/WebObjects/ServeurPlanning.woa/wa/ics?salNumero=${salNumero}`;
@@ -112,6 +112,7 @@ module.exports = {
                 });
                 msg.setTimestamp()
                 message.channel.send({ embeds: [msg] });
+               //  sallesLibres = [];
 
             } catch (error) {
                 console.error('Une erreur est survenue:', error.message);
