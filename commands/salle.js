@@ -95,13 +95,15 @@ module.exports = {
                             `${salle.nom}`, 
                             `Toute la journée / (9h30 - 16-30)\n\n`
                         )
-                    }else if(salle.libreLaprem && !salle.librLeMatin){
+                    }
+                    if(salle.libreLaprem && salle.librLeMatin === false){
                         msg.addField(
                             `${salle.nom}`, 
                             `Après-midi / (13h30 - 16h30)\n\n`
                         )
 
-                    } else if(!salle.libreLaprem && salle.librLeMatin){
+                    } 
+                    if(salle.libreLaprem === false && salle.librLeMatin){
                         msg.addField(
                             `${salle.nom}`, 
                             `Matin / (9h30 - 12h30)\n\n`
