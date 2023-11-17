@@ -6,11 +6,11 @@ const ical = require('node-ical');
 const salles = 
 [
     {salle: '128', numero: 487},
-    {salle: '137', numero: 496},
     {salle: '133', numero: 492},
     {salle: '134', numero: 493},
     {salle: '135', numero: 494},
     {salle: '136', numero: 495},
+    {salle: '137', numero: 496},
     {salle: 'SC8', numero: 2810},
     {salle: 'Info Trans 2', numero: 2807}
 ]
@@ -66,12 +66,12 @@ module.exports = {
         
                     const isMorningFree = eventsToday.every(event => {
                         const eventStart = event.start.getHours() * 60 + event.start.getMinutes();
-                        return eventStart < 9 * 60 + 30 || eventStart > 12 * 60 + 30;
+                        return eventStart < 8 * 60 || eventStart > 13 * 60;
                     });
         
                     const isAfternoonFree = eventsToday.every(event => {
                         const eventStart = event.start.getHours() * 60 + event.start.getMinutes();
-                        return eventStart < 13 * 60 + 30 || eventStart > 16 * 60 + 30;
+                        return eventStart < 13 * 60 || eventStart > 17 * 60;
                     });
         
                     if (eventsToday.length === 0 || isMorningFree || isAfternoonFree) {
@@ -88,7 +88,6 @@ module.exports = {
                 const msg = new Discord.MessageEmbed()
                 .setTitle('Salles libres')
                 .setColor('#ff8e01')
-                
                 sallesLibres.forEach(salle => {
                     if(salle.libreLaprem && salle.librLeMatin){
                         msg.addField(
