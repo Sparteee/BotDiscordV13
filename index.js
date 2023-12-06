@@ -62,19 +62,19 @@ async function main() {
         if(channel) {
            // const embed = new Discord.MessageEmbed().setTitle(`EDT du ${new Date(Date.now()).toLocaleDateString()}`)
 
-            const test = new MessageEmbed()
-            .setTitle(`EDT -- ${new Date(Date.now()).toLocaleDateString()}\n\n`)
+            const embed = new MessageEmbed()
+            .setTitle(`EDT -- ${new Date(Date.now()).toLocaleDateString('fr-FR')}\n\n`)
             .setColor('#ff8e01')
             eventsToday.forEach(event => {
                 test.addField(
                     `${event.summary}\n`, 
-                    `De ${event.start.toLocaleTimeString()} à ${event.end.toLocaleTimeString()}\n\n`
+                    `De ${event.start.toLocaleTimeString('fr-FR')} à ${event.end.toLocaleTimeString('fr-FR')}\n\n`
                 )
             });
-            test.setTimestamp()
+            embed.setTimestamp()
            // channel.send(embed);
 
-           channel.send({ embeds: [test] });
+           channel.send({ embeds: [embed] });
         }
 
 
