@@ -68,7 +68,7 @@ module.exports = {
             });
             msg.setTimestamp();
             channel.send({ embeds: [msg] });
-          } else if (delay === 'tomorrow') {
+          } else if (delay === 'next') {
             const eventsToday = eventsArray.filter((event) => {
               const today = new Date(Date.now() + 86400000);
               return event.start.toDateString() === today.toDateString();
@@ -85,7 +85,7 @@ module.exports = {
             });
             msg.setTimestamp();
             channel.send({ embeds: [msg] });
-          } else if (delay === 'yesterday') {
+          } else if (delay === 'prev') {
             const eventsToday = eventsArray.filter((event) => {
               const today = new Date(Date.now() - 86400000);
               return event.start.toDateString() === today.toDateString();
